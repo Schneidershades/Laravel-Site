@@ -15,3 +15,6 @@ Route::get('/', function () { return view('welcome'); });
 
 Route::get('stock', 'StockItemController@index');
 Route::get('stock/{item}', 'StockItemController@detail');
+
+Route::get('users', 'UsersController@index');
+Route::get('users/{users}', 'UsersController@detail');
