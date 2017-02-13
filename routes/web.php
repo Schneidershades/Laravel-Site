@@ -18,3 +18,6 @@ Route::get('stock/{item}', 'StockItemController@detail');
 
 Route::get('users', 'UsersController@index');
 Route::get('users/{users}', 'UsersController@detail');
+
+Route::get('tasks', 'TasksController@index');
+Route::get('tasks/{task}', 'TasksController@detail');
